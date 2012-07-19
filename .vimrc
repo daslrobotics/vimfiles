@@ -10,3 +10,7 @@ let g:xml_syntax_folding = 1
 set foldmethod=indent
 set foldlevel=99
 set ruler
+"Search features
+set incsearch
+set hlsearch
+set ignorecase smartcase
