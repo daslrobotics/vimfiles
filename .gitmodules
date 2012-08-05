@@ -13,3 +13,6 @@
 [submodule "bundle/cscope"]
 	path = bundle/cscope
 	url = https://github.com/vim-scripts/cscope.vim.git
+[submodule "bundle/mediawiki"]
+	path = bundle/mediawiki
+	url = git://github.com/chikamichi/mediawiki.vim.git
