@@ -16,3 +16,9 @@
 [submodule "bundle/mediawiki"]
 	path = bundle/mediawiki
 	url = git://github.com/chikamichi/mediawiki.vim.git
+[submodule "bundle/xml"]
+	path = bundle/xml
+	url = https://github.com/othree/xml.vim.git
+[submodule "bundle/vim-matlab-fold"]
+	path = bundle/vim-matlab-fold
+	url = git://github.com/djoshea/vim-matlab-fold.git
