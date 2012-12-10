@@ -22,3 +22,6 @@
 [submodule "bundle/vim-matlab-fold"]
 	path = bundle/vim-matlab-fold
 	url = git://github.com/djoshea/vim-matlab-fold.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
