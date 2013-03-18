@@ -6,4 +6,22 @@
 	url = git://github.com/tpope/vim-pathogen.git
 [submodule "bundle/git-vim"]
 	path = bundle/git-vim
-	url = https://github.com/motemen/git-vim.git
+	url = git://github.com/motemen/git-vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/cscope"]
+	path = bundle/cscope
+	url = git://github.com/vim-scripts/cscope.vim.git
+[submodule "bundle/mediawiki"]
+	path = bundle/mediawiki
+	url = git://github.com/chikamichi/mediawiki.vim.git
+[submodule "bundle/xml"]
+	path = bundle/xml
+	url = git://github.com/othree/xml.vim.git
+[submodule "bundle/vim-matlab-fold"]
+	path = bundle/vim-matlab-fold
+	url = git://github.com/djoshea/vim-matlab-fold.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
