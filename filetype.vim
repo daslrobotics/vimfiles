@@ -7,5 +7,7 @@ augroup filetypedetect
     au! BufRead,BufNewFile *.nxc  setfiletype nxc
     au! BufRead,BufNewFile *.tex  set spell
     au! BufRead,BufNewFile *.dae  setfiletype xml
+    au! BufRead,BufNewFile *.urdf  setfiletype xml
+    au! BufRead,BufNewFile *.URDF  setfiletype xml
 augroup END
 
