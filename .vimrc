@@ -3,6 +3,7 @@
 let g:SuperTabDefaultCompletionType = "<c-n>"
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+call pathogen#helptags()
 
 " Standard tab settings at 4 spaces instead of tab chars
 set shiftwidth=4 tabstop=4 expandtab
@@ -22,9 +23,6 @@ set foldlevelstart=3
 set foldmethod=syntax
 let xml_syntax_folding=1
 
-"Pylint setup
-autocmd FileType python compiler pylint
-
 "Search features
 set incsearch
 set hlsearch
@@ -34,3 +32,9 @@ set hlsearch
 set wildmode=longest,list,full
 set wildmenu
 set iskeyword+=.
+
+"Python mode keywords
+let g:pymode_lint_onfly = 1
+let g:pymode_lint_cwindow = 1
+let g:pymode_lint_ignore = "E2,E501"
+let g:pymode_lint_checker="pyflakes"
