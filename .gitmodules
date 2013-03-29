@@ -37,9 +37,3 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
-[submodule "bundle/python_calltips"]
-	path = bundle/python_calltips
-	url = git://github.com/vim-scripts/python_calltips.git
-[submodule "bundle/pylint"]
-	path = bundle/pylint
-	url = git://github.com/orenhe/pylint.vim.git
