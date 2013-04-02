@@ -1,2 +1,3 @@
 git submodule update --init
-ln -sf ./setup.vim ~/.vimrc 
+SETUP_VIM=`git rev-parse --show-toplevel`
+ln -sf $SETUP_VIM/setup.vim ~/.vimrc 
