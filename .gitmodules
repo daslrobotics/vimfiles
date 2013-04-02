@@ -34,3 +34,6 @@
 [submodule "bundle/doxygen-support"]
 	path = bundle/doxygen-support
 	url = git://github.com/vim-scripts/doxygen-support.vim.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = git://github.com/tpope/vim-markdown.git
