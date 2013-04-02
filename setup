@@ -1,3 +1,2 @@
 git submodule update --init
-sudo apt-git install pylint
-ln -sf ./.vimrc ~/.vimrc 
+ln -sf ./vimrc ~/.vimrc 
