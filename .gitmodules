@@ -25,3 +25,12 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = git://github.com/klen/python-mode.git
+[submodule "bundle/doxygen-support"]
+	path = bundle/doxygen-support
+	url = git://github.com/vim-scripts/doxygen-support.vim.git
