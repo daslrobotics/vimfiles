@@ -1,2 +1,2 @@
 git submodule update --init
-ln -sf ./vimrc ~/.vimrc 
+ln -sf ./setup.vim ~/.vimrc 
