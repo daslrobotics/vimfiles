@@ -18,10 +18,10 @@ autocmd BufEnter *.m compiler mlint
 
 " Enable syntax based folding (this will require additional plugins for odd
 " filetypes
-set foldenable
-set foldlevelstart=3
 set foldmethod=syntax
-let xml_syntax_folding=1
+"set foldenable
+set foldlevelstart=4
+"let xml_syntax_folding=1
 
 "Search features
 set incsearch
@@ -38,3 +38,4 @@ let g:pymode_lint_onfly = 1
 let g:pymode_lint_cwindow = 1
 let g:pymode_lint_ignore = "E2,E501"
 let g:pymode_lint_checker="pyflakes"
+

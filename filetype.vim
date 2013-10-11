@@ -9,5 +9,5 @@ augroup filetypedetect
     au! BufRead,BufNewFile *.dae  setfiletype xml
     au! BufRead,BufNewFile *.urdf  setfiletype xml
     au! BufRead,BufNewFile *.URDF  setfiletype xml
+    au! BufRead,BufNewFile *.m,*.oct set filetype=octave 
 augroup END
-
