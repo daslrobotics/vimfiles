@@ -11,5 +11,6 @@ augroup filetypedetect
     au! BufRead,BufNewFile *.URDF  setfiletype xml
     au! BufRead,BufNewFile *.m,*.oct set filetype=octave 
     au! BufRead,BufNewFile *.m1s  setfiletype vbnet
-    au! BufRead,BufNewFile *.ng  setfiletype ngc
+    au! BufRead,BufNewFile *.ngc  setfiletype ngc
+    au! BufRead,BufNewFile *.nc  setfiletype ngc
 augroup END
