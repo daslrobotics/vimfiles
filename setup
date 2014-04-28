@@ -1,0 +1,8 @@
+#!/bin/bash
+git submodule update --init
+SETUP_VIM=`git rev-parse --show-toplevel`
+ln -sf $SETUP_VIM/setup.vim ~/.vimrc 
+mkdir -p doxygen-support/templates
+touch doxygen-support/templates/doxygen.templates
+echo " Make sure to add your information to your local doxygen.templates file"
+echo " see README.doxygen-support for details"

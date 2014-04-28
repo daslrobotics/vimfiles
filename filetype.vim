@@ -9,5 +9,7 @@ augroup filetypedetect
     au! BufRead,BufNewFile *.dae  setfiletype xml
     au! BufRead,BufNewFile *.urdf  setfiletype xml
     au! BufRead,BufNewFile *.URDF  setfiletype xml
+    au! BufRead,BufNewFile *.m,*.oct setfiletype octave 
+    au! BufRead,BufNewFile *.m1s  setfiletype vbnet
+    au! BufRead,BufNewFile *.ngc,*.nc  setfiletype ngc
 augroup END
-

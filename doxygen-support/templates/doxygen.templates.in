@@ -2,10 +2,10 @@
 # ========== USER MACROS ======================================
 # =============================================================
 #
-$AUTHOR$    = Robert Ellenberg 
-$AUTHORREF$ = rwe24
-$EMAIL$     = rwe24@drexel.edu
-$COMPANY$   = Drexel University
+$AUTHOR$    = 
+$AUTHORREF$ = 
+$EMAIL$     = 
+$COMPANY$   = 
 $COPYRIGHT$ = Copyright (c) $YEAR$, $AUTHOR$
 $sortmenus$ = no
 
